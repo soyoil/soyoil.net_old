@@ -12,23 +12,23 @@ export default () => (
     <img src={kai} className="kai" alt="kai" />
     <h4>soyoil</h4>
     <p>
-      <Link to="https://www.tsukuba.ac.jp/">筑波大学</Link>の
-      <Link to="https://www.coins.tsukuba.ac.jp/">情報科学類</Link>
+      <a href="https://www.tsukuba.ac.jp/">筑波大学</a>の
+      <a href="https://www.coins.tsukuba.ac.jp/">情報科学類</a>
       に所属しています。
     </p>
     <p>
       A student of{" "}
-      <Link to="https://www.coins.tsukuba.ac.jp/">
+      <a href="https://www.coins.tsukuba.ac.jp/">
         College of Information Science
-      </Link>
-      , <Link to="https://www.tsukuba.ac.jp/">University of Tsukuba</Link>.
+      </a>
+      , <a href="https://www.tsukuba.ac.jp/">University of Tsukuba</a>.
     </p>
     <ul>
       <li>
-        Twitter: <Link to="https://twitter.com/0ilpanic">@0ilpanic</Link>
+        Twitter: <a href="https://twitter.com/0ilpanic">@0ilpanic</a>
       </li>
       <li>
-        GitHub: <Link to="https://github.com/soyoil">soyoil</Link>
+        GitHub: <a href="https://github.com/soyoil">soyoil</a>
       </li>
     </ul>
     <Link to="/">Go back to the homepage</Link>
