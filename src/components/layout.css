@@ -14,6 +14,9 @@ h3 {
 a {
   color: darkgreen;
 }
+a:hover {
+  text-decoration: underline;
+}
 img.kai {
   width: 100px;
   border: 1px solid black;
@@ -29,4 +32,19 @@ h3.blogsection {
 }
 div.article {
   margin: 3rem 0;
+}
+div.container {
+  max-width: 80rem;
+}
+p.articleHead {
+  margin-top: 3rem;
+}
+h3.articleTitle {
+  margin-top: 1rem;
+}
+:not(pre) > code[class*="language-"] {
+  border-radius: 0 !important;
+  background: #eee !important;
+  color: #606c76;
+  margin: 0 .5rem;
 }

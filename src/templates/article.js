@@ -10,7 +10,8 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title={post.frontmatter.title} />
-      <h1>{post.frontmatter.title}</h1>
+      <p className="articleHead">soyoil.net Blog</p>
+      <h3 className="articleTitle">{post.frontmatter.title}</h3>
       <p>投稿日: {post.frontmatter.date}</p>
       <hr />
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
