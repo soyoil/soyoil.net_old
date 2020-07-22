@@ -1,10 +1,17 @@
 module.exports = {
   siteMetadata: {
     title: `soyoil.net`,
-    description: `homepage`,
+    description: `soyoil.net`,
     author: `soyoil`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+        head: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
