@@ -32,7 +32,7 @@ export default () => (
     </p>
     <ul>
       <li>
-        Twitter: <a href="https://twitter.com/0ilpanic">@0ilpanic</a>
+        Twitter: <a href="https://twitter.com/_soyoil">@_soyoil</a>
       </li>
       <li>
         GitHub: <a href="https://github.com/soyoil">soyoil</a>

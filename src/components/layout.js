@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
         href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
       /> */}
     </Helmet>
-    <div class="container">{children}</div>
+    <div className="container">{children}</div>
   </div>
 );
 
